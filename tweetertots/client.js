@@ -11,7 +11,7 @@ const testSample = [2.668,-114.333,-1.908,4.786,25.707,-45.21,78,0]; // Curvebal
 predictButton.onclick = () => {
   predictButton.disabled = true;
   socket.emit('predictSample', testSample);
-};
+};s
 
 // functions to handle socket events
 socket.on('connect', () => {
