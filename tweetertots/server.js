@@ -2,7 +2,7 @@ require('@tensorflow/tfjs-node');
 
 const http = require('http');
 const socketio = require('socket.io');
-const pitch_type = require('./pitch_type');
+const pitch_type = require('./tweets');
 
 const TIMEOUT_BETWEEN_EPOCHS_MS = 500;
 const PORT = 8001;
